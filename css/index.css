@@ -6,13 +6,15 @@ body {
     transition: all 200ms ease-in-out;
   }
   .underconstruction{
-    max-width: 90%;
-    height: 90%;
+    max-width: 70vw;
+    height: 70vh;
     margin: auto;
     position: relative;
     display: flex;
     flex: auto;
   }
   .header{
+    width:100%;
+    text-align: center;
     font-size: large;
   }
