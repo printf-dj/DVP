@@ -13,3 +13,6 @@ body {
     display: flex;
     flex: auto;
   }
+  .header{
+    font-size: large;
+  }
