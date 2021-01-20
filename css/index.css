@@ -1,6 +1,7 @@
 body {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
     transition: all 200ms ease-in-out;
@@ -13,8 +14,286 @@ body {
     display: flex;
     flex: auto;
   }
-  .header{
-    width:100%;
-    text-align: center;
-    font-size: large;
+  .main{
+    position: relative;
+    min-height: 100vh;
   }
+  #content-wrap{
+    padding-bottom: 10rem;      /*Change for footer*/
+  }
+  /* --------------------Header-------------------- */
+  .header{
+    background-color: #F8F9FA;
+    box-shadow: -1px 3px 10px #757575;
+    transition: 0.3s ease-in-out;
+    z-index: 10;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    top:0;
+    padding:0.5rem;
+  }
+  .sticky {
+    position: fixed !important;
+    display: flex;
+    width: -webkit-fill-available;
+    top: 0;
+    background-color: #F8F9FA;
+    outline-width: thin;
+    outline-color: cadetblue;
+    outline-style: groove;
+    box-shadow: -1px 3px 10px #757575;
+    transition: 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .logo{
+    display: flex;
+    max-width:25vw;
+    height: 6.5vh;
+  }
+  .hlogo{
+    max-width:90%;
+    max-height:100%;
+  }
+  .hamburger {
+    width: 2rem;
+    height: 1.5rem;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    justify-content: center;
+    padding:0.5px;
+    right: 1vw;
+  }
+  .hamburger span {
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #007BFF;
+    border-radius: 10px;
+    outline: rgba(0, 0, 0, 0.118);
+    outline-style: auto;
+    transition: 0.25s ease-in-out all;
+  }
+  /* initial lines postion */
+  .hamburger span:nth-child(1) {
+    top: 0;
+  }
+  .hamburger span:nth-child(2) {
+    top: 10px;
+    left: 0;
+  }
+  .hamburger span:nth-child(3) {
+    top: 20px;
+  }
+  /* open class animation */
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 15px;
+    background: #6C757D;
+  }
+  .hamburger.open span:nth-child(2) {
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 15px;
+    outline:none;
+    background: #6C757D;
+  }
+
+  @media screen and (max-width: 700px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding:0.5rem;
+      margin:auto;
+    }
+    header .logo{
+      display: flex;
+      max-width: 70vw;
+      min-height: 5.5vh;
+    }
+  }
+
+/* --------------------Footer-------------------- */
+  footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 10rem;
+  background-color: #F8F9FA;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -3px 10px #757575;
+  }
+  footer>section{
+    padding: 1rem;
+    width: 100%;
+    height: 70%;
+    border-radius: 4px;
+    line-height: 2px;
+    /* background-color:#f5f5f5; */
+  }
+  footer>section>.footer1{
+    height: 100%;
+    display: contents;
+    line-height: initial;
+  }
+  footer>.footer2{
+    height: 30%;
+    text-align: center;
+    background-color:#F8F9FA;
+    contain: content;
+    cursor: default;
+    font-size: small;
+    font-style: italic;
+  }
+  .footer2>p,a{
+    color:black;
+    text-decoration: none;
+    line-height: 5px;
+  }
+  heart{
+    color:rgb(255, 0, 0);
+    position: relative;
+    z-index: 11;
+    font-style: normal;
+    font-size: large;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  
+  p {
+    transition: 0.5s ease-in;
+  }
+  
+  p:hover {
+    transition: 1 ease-out;
+  }
+ p:hover .iconheart,p:hover heart:hover, p:hover heart:focus, p:hover heart:active {
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+  
+  
+  @-webkit-keyframes hvr-pulse-grow {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes hvr-pulse-grow {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  
+  /* --------------------Card Layout at starting --------------------  */
+  .card {
+    max-width: 200px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 25px;
+    transition: 0.2s ease-in-out;
+  }
+  .card .card-header {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .col-1.card .card-header {
+    background: url('/assets/dish.png')
+      no-repeat center center / cover;
+  }
+  .col-2.card .card-header {
+    background: url("/assets/dish.png")
+      no-repeat center center / cover;
+  }
+  .col-3.card .card-header {
+    background: url('/assets/dish.png')
+      no-repeat center center / cover;
+  }
+  .card .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  .card .card-body h2 {
+    margin-bottom: 5px;
+  }
+  .col-1.card:hover{
+    background-color:cadetblue;
+    color:orange;
+    font-size:large;
+  }
+  .col-2.card:hover{
+    background-color: aquamarine;
+  }
+  .col-3.card:hover{
+    background-color:peachpuff;
+  }
+  
+  /* Destkop layout until Breakpoint 1 */
+  .wrapper {
+    width: 100%;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+  }
+  /* Breakpoint 1 */
+  @media (max-width: 700px) {
+    .wrapper {
+      flex-wrap: wrap;
+    }
+    .col-2 {
+      margin-right: 0;
+    }
+    .col-3 {
+      margin-top: 25px;
+    }
+  }
+  /* Breakpoint 2 */
+  @media (max-width: 480px) {
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      margin: 0;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    .col-3 {
+      margin-bottom: 0;
+    }
+  }
+  /* Breakpoint 3 */
+  @media (max-width: 375px) {
+    .card {
+      max-width: 100%;
+    }
+  }
+  
