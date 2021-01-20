@@ -1,5 +1,5 @@
 $(function () {
-    $('.header').load('components/header.html')
+    $('#header').load('components/header.html')
     $('#footer').load('components/footer.html')
 });
 
@@ -14,14 +14,3 @@ window.onload=function(){
         }
     });
     }
-
-//Sticky Header//
-window.addEventListener("scroll", (e) => {
-    const header = document.querySelector("header");
-    if (window.pageYOffset > 25) {
-      header.classList.add("sticky");
-    }
-    else {
-        header.classList.remove("sticky");
-    }
-});
