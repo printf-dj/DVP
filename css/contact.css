@@ -1,0 +1,98 @@
+.main{
+    position: relative;
+    min-height:100vh;
+}
+
+.box{
+    margin: auto;
+}
+.content{
+    display:flex;
+    padding:35px;
+    justify-content: center;
+}
+
+.contact{
+    box-shadow: 1px 2px 8px rgb(0 0 0 /10%); 
+    border-radius: 25px;
+    width:100vw;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    padding: inherit;
+    transition: 0.5s ease-in-out;
+    line-height: 25px;
+}
+
+.address{
+    box-shadow: 1px 2px 8px rgb(0 0 0 / 10%); 
+    border-radius: 25px;
+    width:100vw;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    padding:inherit;
+    transition: 0.5s ease-in-out;
+    line-height: 25px;
+}
+.address:hover, .contact:hover{
+    box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
+    font-size: large;
+}
+
+@media (max-width: 700px) {
+    .content{
+        flex-wrap:wrap;
+    }
+    .address{
+        margin-left:auto;
+        margin-top: 20px;
+    }
+}
+
+.booking{
+    display:flex;
+    padding:35px;
+    justify-content: center;
+}
+.head{
+    width:100vw;
+    position: relative;
+    padding: inherit;
+    line-height: 25px;
+}
+
+.qr{
+    width:100vw;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    padding: inherit;
+    border-radius: 25px;
+    box-shadow: 1px 2px 8px rgb(0 0 0 /10%);
+    transition: 0.5s ease-in-out;
+}
+#qr{
+    width:150px;
+    height:150px;
+    margin:8px;
+    transition: 0.5s ease-in-out;
+    outline-style: dashed;
+    outline-color: black;
+}
+
+@media (max-width: 700px) {
+    .booking{
+        flex-wrap: wrap;
+    }
+    .qr{
+        margin-left:auto;
+        margin-top: 20px;
+    }
+}
+
+.qr:hover {
+    box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
+    color:black;
+}
