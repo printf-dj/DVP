@@ -61,8 +61,8 @@
     height: 6.5vh;
   }
   .hlogo{
-    max-width:90%;
-    max-height:100%;
+    width:90%;
+    height:90%;
   }
   
   nav {
@@ -226,10 +226,17 @@
     line-height: 0.8rem;
 
   }
+  
+
   #two{
     width:50%;
     line-height: 1.5rem;
     text-align: end;
+  }
+
+  #two>a{
+    text-decoration: none;
+    color:#333;
   }
 
   footer>.footer2{
@@ -240,7 +247,7 @@
     color: #333;
     margin:auto;
   }
-  .footer2>p,a{
+  .footer2>p, .footer2>p>a{
     color: #333;
     text-decoration: none;
   }
