@@ -2,6 +2,17 @@
     position: relative;
     min-height:100vh;
 }
+#head{
+    color:#333;
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: xx-large;
+}
+#line{
+    padding:10px;
+    text-align: center;
+}
 
 .box{
     margin: auto;
@@ -50,6 +61,7 @@
         margin-top: 20px;
     }
 }
+
 
 .booking{
     display:flex;
