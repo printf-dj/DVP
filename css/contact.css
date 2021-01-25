@@ -97,6 +97,7 @@
 @media (max-width: 700px) {
     .booking{
         flex-wrap: wrap;
+        margin-bottom: 5vw;
     }
     .qr{
         margin-left:auto;
