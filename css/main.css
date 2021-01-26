@@ -54,17 +54,13 @@
     position: sticky;
     z-index: 1;
   }
-
-  .logo{
-    display: flex;
-    max-width:25vw;
-    height: 6.5vh;
-  }
-  .hlogo{
-    width:90%;
-    height:90%;
-  }
   
+  .logo>a{
+    text-decoration:none;
+    color:#92D050;
+    font-size: 2rem;
+  }
+
   nav {
     background-color: rgba(0, 0, 0, 0.98);
     position: fixed;
@@ -106,7 +102,7 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   nav ul li a:hover {
-    color:lightgreen;
+    color:#92D050;
   }
   
   .toggle-btn {
@@ -177,18 +173,18 @@
   #toggle:checked + label.toggle-btn .bar:nth-child(3) {
     transform: translateY(-8px) rotate(45deg);
   }
-  
+  @media screen and (max-width: 450px){
+    .logo>a{
+      font-size: 1em;
+    }
+  }
+
   @media screen and (max-width: 700px) {
     .header{
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-    .header .logo{
-      display: flex;
-      flex:1;
-      max-width: 70vw;
-      min-height: 5.5vh;
+      font-size:1.5rem
     }
     .toggle-btn{
       height: 2.5rem;

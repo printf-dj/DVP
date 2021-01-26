@@ -34,6 +34,24 @@
     transition: 0.5s ease-in-out;
     line-height: 25px;
 }
+button{
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-style:solid;
+    padding:5px;
+    margin-top:5px;
+    transition: 250ms ease-out;
+}
+.whatsapp, .whatsapp>a{
+    color:#25D366;
+    font-weight: 500;
+    border-color:#25D366;
+}
+.direction, .direction>a{
+    color:#3367d6;
+    font-weight:500;
+    border-color:#3367d6;
+}
 
 .address{
     box-shadow: 1px 2px 8px rgb(0 0 0 / 10%); 
@@ -51,6 +69,21 @@
     box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
     font-size: large;
 }
+
+.contact:hover .whatsapp{
+    background:
+    linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
+    radial-gradient(#25d366 100%,transparent 0);
+}
+
+
+.address:hover .direction{
+    background-color: #3367d6;;
+}
+.contact:hover .whatsapp>a, .address:hover .direction>a {
+    color:white;
+}
+
 
 @media (max-width: 700px) {
     .content{
@@ -108,4 +141,8 @@
 .qr:hover {
     box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
     color:black;
+}
+a{
+    color:#333;
+    text-decoration:none;
 }
