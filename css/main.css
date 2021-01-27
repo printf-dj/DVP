@@ -119,7 +119,7 @@
   
   .toggle-btn .bar {
     position: absolute;
-    height: 6px;
+    height: 5px;
     width: 100%;
     background: #92D050;
     border-radius: 10px;
@@ -176,6 +176,7 @@
   @media screen and (max-width: 450px){
     .logo>a{
       font-size: 1em;
+      font-weight: 400;
     }
   }
 
@@ -183,17 +184,16 @@
     .header{
       display: flex;
       align-items: center;
-      justify-content: center;
       font-size:1.5rem
     }
     .toggle-btn{
-      height: 2.5rem;
+      height: 2.4rem;
     }
   }
 /* --------------------Footer-------------------- */
   footer{
   width: 100%;
-  height: auto;
+  height: 150px;
   position: absolute;
   bottom: 0;
   background-color: #F8F9FA;
@@ -220,7 +220,6 @@
   #one{
     width:50%;
     line-height: 0.8rem;
-
   }
   
 
@@ -261,6 +260,9 @@
   @media (max-width:505px){
   #one>h2{
     font-size:x-large !important;
+    }
+    footer{
+      height:200px;
     }
   }
 
