@@ -43,6 +43,8 @@ button{
     padding:5px;
     margin-top:5px;
     transition: 250ms ease-out;
+    outline:none;
+    cursor: pointer;
 }
 
 .fa-facebook{
@@ -52,12 +54,12 @@ button{
   background-position: 70% 0;
   background-repeat: no-repeat;
 }
-.whatsapp, .whatsapp>a{
+.whatsapp{
     color:#25D366;
     font-weight: 550;
     border-color:#25D366;
 }
-.direction, .direction>a{
+.direction{
     color:#3367d6;
     font-weight:550;
     border-color:#3367d6;
@@ -84,6 +86,7 @@ button{
     background:
     linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
     radial-gradient(#25d366 100%,transparent 0);
+    color:white;
 }
 .contact:hover .fa-whatsapp{
     background:#fff;
@@ -97,7 +100,8 @@ button{
 }
 
 .address:hover .direction{
-    background-color: #3367d6;;
+    background-color: #3367d6;
+    color:white;
 }
 .contact:hover .whatsapp>a, .address:hover .direction>a, .address:hover .fa-directions {
     color:white;
