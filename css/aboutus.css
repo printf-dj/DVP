@@ -13,12 +13,21 @@
     padding:10px;
     text-align: center;
 }
-
 .box{
-    margin: auto;
+    margin:15px 25px 15px 25px;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 35%); 
+    border-radius: 15px;
+    display:flex;
 }
 .content{
-    display:flex;
-    padding:35px;
-    justify-content: center;
+    padding:15px;
+    text-align: left;
+    line-height: 30px;
+}
+.content>div{
+    padding:20px;
+}
+h2{
+    font-weight: bold;
+    padding: 10px 20px 10px;
 }
