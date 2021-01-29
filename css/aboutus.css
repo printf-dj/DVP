@@ -14,20 +14,23 @@
     text-align: center;
 }
 .box{
-    margin:10px 15px 10px 15px;
-    box-shadow: 6px 6px 15px rgb(0 0 0 / 35%); 
-    border-radius: 15px;
     display:flex;
 }
 .content{
-    padding:10px;
+    padding:10px 15px 10px 15px;
     text-align: left;
     line-height: 30px;
 }
 .content>div{
     padding:20px;
+    transition: 250ms ease-out;
 }
-h2{
+.content>h2{
     font-weight: bold;
     padding: 10px 20px 10px;
+}
+.content>div:hover{
+    border-radius: 25px;
+    box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
+    background-color:#F8F9FA;
 }
