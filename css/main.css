@@ -59,6 +59,7 @@
     text-decoration:none;
     color:#92D050;
     font-size: 2rem;
+    font-weight: 900;
   }
 
   nav {
@@ -176,7 +177,6 @@
   @media screen and (max-width: 450px){
     .logo>a{
       font-size: 1em;
-      font-weight: 400;
     }
   }
 
