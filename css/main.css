@@ -338,3 +338,21 @@
       transform: scale(1.1);
     }
   }
+
+/* --------------------Reveal on Scroll-------------------- */
+  .scroll{
+    opacity: 0;
+}
+.scroll-reveal {
+	animation: fadeAndSlide 0.7s ease-in-out forwards;
+}
+@keyframes fadeAndSlide {
+	from {
+		margin-top: 350px;
+		opacity: 0;
+	}
+	to {
+    margin-top:20px;
+		opacity: 1;
+	}
+}
