@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
   // The location of DVP
-  const dvp = { lat: 30.45520838256879, lng: 79.27242999999999 };
+  const dvp = { lat: 30.454530, lng:79.272533 };
 
   //Fix Font issue created by GMAP
   var head = document.getElementsByTagName('head')[0];
