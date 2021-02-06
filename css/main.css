@@ -348,7 +348,7 @@
 }
 @keyframes fadeAndSlide {
 	from {
-		margin-top: 200px;
+		margin-top: 450px;
 		opacity: 0;
 	}
 	to {
