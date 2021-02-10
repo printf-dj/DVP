@@ -27,6 +27,7 @@
     border-radius: 25px;
     margin-top: 20px;
     transition: 250ms ease-out;
+    background-color: white;
 }
 .content>h2{
     font-weight: bold;

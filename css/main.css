@@ -28,6 +28,7 @@
       width: 100vw;
       height: 100vh;
       margin: 0;
+      background-color: #EDEDED;
       box-sizing: border-box;
       overflow-x: auto;
       transition: all 200ms ease-in-out;
@@ -57,7 +58,7 @@
   
   .logo>a{
     text-decoration:none;
-    color:#92D050;
+    color:#8bc34e;
     font-size: 2rem;
     font-weight: 900;
   }
@@ -348,7 +349,7 @@
 }
 @keyframes fadeAndSlide {
 	from {
-		margin-top: 450px;
+		margin-top: 250px;
 		opacity: 0;
 	}
 	to {
