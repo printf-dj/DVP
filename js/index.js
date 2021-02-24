@@ -23,7 +23,7 @@ function initMap() {
 
   // The map, centered at DVP
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 9,
+    zoom: 12,
     center: dvp,
   });
   // The marker, positioned at DVP
