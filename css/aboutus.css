@@ -1,35 +1,35 @@
-.main{
-    position: relative;
-    min-height:100vh;
+.main {
+  position: relative;
+  min-height: 100vh;
 }
-#head{
-    color:#333;
-    padding-top: 3vh;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: xx-large;
+#head {
+  color: #333;
+  padding-top: 3vh;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: xx-large;
 }
-#line{
-    padding:10px;
-    text-align: center;
+#line {
+  padding: 10px;
+  text-align: center;
 }
-.box{
-    display:flex;
+.box {
+  display: flex;
 }
-.content{
-    padding:10px 15px 10px 15px;
-    text-align: left;
-    line-height: 30px;
+.content {
+  padding: 10px 15px 10px 15px;
+  text-align: left;
+  line-height: 30px;
 }
-.content>div{
-    padding:20px;
-    box-shadow: 1px 2px 8px rgb(0 0 0 / 50%); 
-    border-radius: 25px;
-    margin-top: 20px;
-    transition: 250ms ease-out;
-    background-color: white;
+.content > div {
+  padding: 20px;
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 50%);
+  border-radius: 25px;
+  margin-top: 20px;
+  transition: 250ms ease-out;
+  background-color: white;
 }
-.content>h2{
-    font-weight: bold;
-    padding: 10px 20px 10px;
+.content > h2 {
+  font-weight: bold;
+  padding: 10px 20px 10px;
 }

@@ -1,174 +1,179 @@
-.main{
-    position: relative;
-    min-height:100vh;
+.main {
+  position: relative;
+  min-height: 100vh;
 }
-#head{
-    color:#333;
-    padding-top: 3vh;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: xx-large;
+#head {
+  color: #333;
+  padding-top: 3vh;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: xx-large;
 }
-#line{
-    padding:10px;
-    text-align: center;
-}
-
-.box{
-    margin: auto;
-}
-.content{
-    display:flex;
-    padding:35px;
-    justify-content: center;
+#line {
+  padding: 10px;
+  text-align: center;
 }
 
-.contact{
-    box-shadow: 1px 2px 8px rgb(0 0 0 /10%); 
-    border-radius: 25px;
-    width:100vw;
-    justify-content: center;
-    text-align: center;
-    position:relative;
-    padding: inherit;
-    transition: 0.5s ease-in-out;
-    line-height: 25px;
-    background-color: white;
+.box {
+  margin: auto;
+}
+.content {
+  display: flex;
+  padding: 35px;
+  justify-content: center;
 }
 
-button{
-    background-color: #ffffff;
-    border-radius: 15px;
-    font-size: medium;
-    border-style:solid;
-    padding:5px;
-    margin-top:5px;
-    transition: 250ms ease-out;
-    outline:none;
-    cursor: pointer;
+.contact {
+  box-shadow: 1px 2px 8px rgb(0 0 0 /10%);
+  border-radius: 25px;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: inherit;
+  transition: 0.5s ease-in-out;
+  line-height: 25px;
+  background-color: white;
 }
 
-.fa-facebook{
+button {
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-size: medium;
+  border-style: solid;
+  padding: 5px;
+  margin-top: 5px;
+  transition: 250ms ease-out;
+  outline: none;
+  cursor: pointer;
+}
+
+.fa-facebook {
   color: #3b5998;
-  background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 93%
+  );
   background-size: 55%;
   background-position: 70% 0;
   background-repeat: no-repeat;
 }
-.whatsapp{
-    color:#25D366;
-    font-weight: 550;
-    border-color:#25D366;
+.whatsapp {
+  color: #25d366;
+  font-weight: 550;
+  border-color: #25d366;
 }
-.direction{
-    color:#3367d6;
-    font-weight:550;
-    border-color:#3367d6;
-}
-
-.address{
-    box-shadow: 1px 2px 8px rgb(0 0 0 / 10%); 
-    border-radius: 25px;
-    width:100vw;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    margin-left: 20px;
-    padding:inherit;
-    transition: 0.5s ease-in-out;
-    line-height: 25px;
-    background-color: white;
-}
-.address:hover, .contact:hover{
-    box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
-    font-size:large;
+.direction {
+  color: #3367d6;
+  font-weight: 550;
+  border-color: #3367d6;
 }
 
-.contact:hover .whatsapp{
-    background:
-    linear-gradient(#25d366,#25d366)10px 84%/20px 15px no-repeat,
-    radial-gradient(#25d366 100%,transparent 0);
-    color:white;
-    
+.address {
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 10%);
+  border-radius: 25px;
+  width: 100vw;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  padding: inherit;
+  transition: 0.5s ease-in-out;
+  line-height: 25px;
+  background-color: white;
 }
-.contact:hover .fa-whatsapp{
-    background:#fff;
-    color:
-    linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
-    radial-gradient(#25d366 100%,transparent 0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-}
-
-.address:hover .direction{
-    background-color: #3367d6;
-    color:white;
-}
-.contact:hover .whatsapp>a, .address:hover .direction>a, .address:hover .fa-directions {
-    color:white;
+.address:hover,
+.contact:hover {
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 200%);
+  font-size: large;
 }
 
-
-@media (max-width: 700px) {
-    .content{
-        flex-wrap:wrap;
-    }
-    .address{
-        margin-left:auto;
-        margin-top: 20px;
-    }
+.contact:hover .whatsapp {
+  background: linear-gradient(#25d366, #25d366) 10px 84%/20px 15px no-repeat,
+    radial-gradient(#25d366 100%, transparent 0);
+  color: white;
+}
+.contact:hover .fa-whatsapp {
+  background: #fff;
+  color: linear-gradient(#25d366, #25d366) 10px 84%/10px 15px no-repeat,
+    radial-gradient(#25d366 100%, transparent 0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
-.booking{
-    display:flex;
-    padding:35px;
-    justify-content: center;
+.address:hover .direction {
+  background-color: #3367d6;
+  color: white;
 }
-.head{
-    width:100vw;
-    position: relative;
-    padding: inherit;
-    line-height: 25px;
-}
-
-.qr{
-    width:100vw;
-    text-align: center;
-    align-content: center;
-    position: relative;
-    padding: inherit;
-    border-radius: 25px;
-    box-shadow: 1px 2px 8px rgb(0 0 0 /10%);
-    transition: 0.5s ease-in-out;
-    background-color: white;
-}
-#qr{
-    width:150px;
-    height:150px;
-    margin:8px;
-    transition: 0.5s ease-in-out;
-    outline-style: dashed;
-    outline-color: black;
+.contact:hover .whatsapp > a,
+.address:hover .direction > a,
+.address:hover .fa-directions {
+  color: white;
 }
 
 @media (max-width: 700px) {
-    .booking{
-        flex-wrap: wrap;
-        margin-bottom: 5vw;
-    }
-    .qr{
-        margin-left:auto;
-        margin-top: 20px;
-    }
+  .content {
+    flex-wrap: wrap;
+  }
+  .address {
+    margin-left: auto;
+    margin-top: 20px;
+  }
+}
+
+.booking {
+  display: flex;
+  padding: 35px;
+  justify-content: center;
+}
+.head {
+  width: 100vw;
+  position: relative;
+  padding: inherit;
+  line-height: 25px;
+}
+
+.qr {
+  width: 100vw;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  padding: inherit;
+  border-radius: 25px;
+  box-shadow: 1px 2px 8px rgb(0 0 0 /10%);
+  transition: 0.5s ease-in-out;
+  background-color: white;
+}
+#qr {
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+  transition: 0.5s ease-in-out;
+  outline-style: dashed;
+  outline-color: black;
+}
+
+@media (max-width: 700px) {
+  .booking {
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
+  }
+  .qr {
+    margin-left: auto;
+    margin-top: 20px;
+  }
 }
 
 .qr:hover {
-    box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
-    color:black;
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 200%);
+  color: black;
 }
-a{
-    color:#333;
-    text-decoration:none;
+a {
+  color: #333;
+  text-decoration: none;
 }
