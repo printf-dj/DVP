@@ -1,44 +1,21 @@
 body {
-  margin: 0;
+  margin: 25px;
   padding: 0;
   box-sizing: border-box;
-}
-.main {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-}
-#box {
+  background-image: url(/assets/notfound.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   color: #333;
-  padding: 0px 20px 10px 20px;
   text-align: center;
-  border-radius: 25px;
-  box-shadow: 1px 2px 8px rgb(0 0 0 / 20%);
   font-family: "Roboto", sans-serif;
   font-size: large;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
 }
-#box > a {
+a {
   color: #333;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.5s ease-in-out;
 }
 
-#box:hover {
-  box-shadow: 1px 2px 8px rgb(0 0 0 / 100%);
-  color: #f5f5f5;
-  background-color: #333;
-  font-size: xx-large;
-}
-#box:hover > a {
-  color: #f5f5f5;
-  font-size: xx-large;
-}
+
