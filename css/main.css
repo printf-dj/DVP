@@ -198,6 +198,10 @@ nav ul li a:hover {
   .toggle-btn {
     height: 2.4rem;
   }
+  nav ul li a{
+font-size: 1.3em;
+
+  }
 }
 /* --------------------Footer-------------------- */
 footer {
