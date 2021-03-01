@@ -50,6 +50,7 @@ body {
   align-items: center;
   background-color: #f8f9fa;
   box-shadow: 0px 3px 10px #757575;
+  transition: 1s ease-in-out;
 }
 
 .header {
@@ -62,9 +63,9 @@ body {
   align-content: center;
   padding: 1rem;
   top:0;
-  transition: 0.3s ease-in-out;
+  transition: 1s ease-in-out;
 }
-.logo > a {
+.logo a {
   text-decoration: none;
   color: #8bc34e;
   font-size: 2rem;
@@ -184,7 +185,7 @@ nav ul li a:hover {
   transform: translateY(-8px) rotate(45deg);
 }
 @media screen and (max-width: 450px) {
-  .logo > a {
+  .logo a {
     font-size: 1em;
   }
 }
@@ -216,7 +217,7 @@ footer {
   box-shadow: 0px -3px 10px #757575;
   padding-bottom: 3px;
 }
-footer > section {
+footer section {
   padding: 1rem;
   width: 100%;
   height: 70%;
@@ -241,7 +242,7 @@ footer > section {
   text-align: end;
 }
 
-#two > a {
+#two a {
   text-decoration: none;
   color: #333;
 }
