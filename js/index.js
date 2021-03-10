@@ -41,10 +41,14 @@ document.onreadystatechange = function() {
       document.querySelector( 
         "body").style.visibility = "hidden"; 
       document.querySelector( 
-        "#loader").style.visibility = "visible"; 
+        ".loader").style.visibility = "visible"; 
+        document.querySelector( 
+          "#loader").style.visibility = "visible"; 
   } else { 
       document.querySelector( 
-        "#loader").style.display = "none"; 
+        ".loader").style.display = "none"; 
+        document.querySelector( 
+          "#loader").style.visibility = "none"; 
       document.querySelector( 
         "body").style.visibility = "visible"; 
   } 

@@ -1,6 +1,11 @@
 /* -------------------- Loader -------------------- */
+.loader{
+  height: 100vh;
+  width:100vw;
+  background-color: #f4f4f4;
+}
 #loader { 
-  border: 10px solid;
+  border: 11px solid;
   border-top-color:#4285f4;
   border-right-color:#34a853;
   border-bottom-color:#fbbc05;
