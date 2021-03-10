@@ -1,4 +1,32 @@
-/* --------------------Card Layout at starting --------------------  */
+/* -------------------- Loader -------------------- */
+#loader { 
+  border: 10px solid;
+  border-top-color:#4285f4;
+  border-right-color:#34a853;
+  border-bottom-color:#fbbc05;
+  border-left-color: #ea4335;
+  border-radius: 50%; 
+  width: 70px; 
+  height: 70px; 
+  animation: spin 1s linear infinite; 
+} 
+
+@keyframes spin { 
+  100% { 
+      transform: rotate(360deg); 
+  } 
+} 
+
+.center { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  margin: auto; 
+} 
+
+/* -------------------- Card Layout at starting --------------------  */
 .card {
   max-width: 200px;
   background: #ffffff;
@@ -80,7 +108,7 @@
     max-width: 100%;
   }
 }
-/* --------------------MAP-------------------- */
+/* -------------------- MAP -------------------- */
 .map {
   padding: 35px;
   display: flex;

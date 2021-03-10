@@ -1,3 +1,4 @@
+// Script for GMap
 // Initialize and add the map
 function initMap() {
   // The location of DVP
@@ -33,3 +34,18 @@ function initMap() {
     animation: google.maps.Animation.BOUNCE,
   });
 }
+
+//Script for Loader
+document.onreadystatechange = function() { 
+  if (document.readyState !== "complete") { 
+      document.querySelector( 
+        "body").style.visibility = "hidden"; 
+      document.querySelector( 
+        "#loader").style.visibility = "visible"; 
+  } else { 
+      document.querySelector( 
+        "#loader").style.display = "none"; 
+      document.querySelector( 
+        "body").style.visibility = "visible"; 
+  } 
+}; 
