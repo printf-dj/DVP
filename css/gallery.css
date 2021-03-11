@@ -16,6 +16,9 @@
   padding: 35px;
   justify-content: center;
 }
+#content-wrap {
+  padding-bottom: 10rem; /*Change for footer*/
+}
 .slider{
   position: relative;
   width:700px;
