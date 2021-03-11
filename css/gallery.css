@@ -19,8 +19,9 @@
 .slider{
   position: relative;
   width:700px;
-  height:450px;
+  height:393.75px;
   padding:2px;
+  aspect-ratio: 16/9;
   background-color: white;
   border-radius: 30px;
   box-shadow: 1px 2px 8px rgb(0 0 0 / 150%);
@@ -99,15 +100,19 @@
 
 @media (max-width: 768px){
   .slider{
-    width:auto;
-    height: 350px;
+    width:680px;
+    height: 382.50px;
   }
 }
 
-@media (max-width: 425px){
+@media (max-width:426px){
   .slider{
     width:350px;
-    height: 300px;
+    height: 196.88px;
+    border-radius: 20px;
+  }
+  .slides img{
+    border-radius:20px;
   }
 }
 @media only screen and (max-width: 300px) {
