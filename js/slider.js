@@ -2,21 +2,23 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  showSlides((slideIndex += n));
 }
 
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slides");
   var captions = document.getElementsByClassName("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length} ;
-  for (i = 0; i <slides.length; i++) {
-    slides[i].style.display = "none";
+  if (n > slides.length) {
+    slideIndex = 1;
   }
-  for (i = 0; i <captions.length; i++) {
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length && captions.length; i++) {
+    slides[i].style.display = "none";
     captions[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
-  captions[slideIndex-1].style.display = "block";
+  slides[slideIndex - 1].style.display = "block";
+  captions[slideIndex - 1].style.display = "block";
 }
