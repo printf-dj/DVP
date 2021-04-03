@@ -118,7 +118,7 @@
     border-radius:20px;
   }
   #content-wrap {
-    padding-bottom: 11rem; /*Change for footer*/
+    padding-bottom: 12rem; /*Change for footer*/
   }
 }
 @media only screen and (max-width: 300px) {
