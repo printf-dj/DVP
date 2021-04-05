@@ -17,13 +17,11 @@
 }
 
 #content-wrap {
-  padding-bottom: 12rem; /*Change for footer*/
+  padding-bottom: 160px; /*Change for footer*/
 }
 .box {
   margin: auto;
 }
-
-
 
 body {
   width: 100vw;

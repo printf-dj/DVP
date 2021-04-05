@@ -16,9 +16,7 @@
   padding: 35px;
   justify-content: center;
 }
-#content-wrap {
-  padding-bottom: 10rem; /*Change for footer*/
-}
+
 .slider{
   position: relative;
   width:700px;
@@ -116,9 +114,6 @@
   }
   .slides img{
     border-radius:20px;
-  }
-  #content-wrap {
-    padding-bottom: 12rem; /*Change for footer*/
   }
 }
 @media only screen and (max-width: 300px) {
