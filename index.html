@@ -13,7 +13,7 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/hf.js"></script>
-    <script src="./js/typed.min.js"></script>
+    <script src="/js/typed.min.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQADPCKTGs5jCYgGWXoW26eLtH01WQctE&callback=initMap&libraries=&v=weekly"
         defer></script>
@@ -22,7 +22,7 @@
 
 <body>
     <div class="loader">
-    <div id="loader" class="center"></div> 
+        <div id="loader" class="center"></div>
     </div>
     <div class="main">
         <div id="content-wrap">
@@ -93,21 +93,29 @@
                     </div>
                 </div>
             </div>
-           
-              <div id="typed-strings" style="display: none;">
+
+            <div id="typed-strings" style="display: none;">
                 <p>Typed.js is a <strong>JavaScript</strong> library.</p>
                 <p>It <em>types</em> out sentences.</p>
-              </div>
-              <span id="typed"></span>
+            </div>
+            <div id="typed"></div>
         </div>
         <div id=footer></div>
     </div>
     </div>
     <script>
         var typed = new Typed('#typed', {
-          stringsElement: '#typed-strings'
+            typeSpeed: 100,
+            startDelay: 500,
+            backSpeed: 50,
+            loop: true,
+            loopCount: Infinity,
+            fadeOut: false,
+            fadeOutClass: 'typed-fade-out',
+            fadeOutDelay: 500,
+            stringsElement: '#typed-strings',
         });
-      </script>
+    </script>
 </body>
 
 </html>
