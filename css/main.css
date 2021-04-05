@@ -276,6 +276,9 @@ footer > .footer2 {
   footer {
     height: 180px;
   }
+  #content-wrap{
+    padding-bottom: 200px;
+  }
 }
 
 heart {

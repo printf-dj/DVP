@@ -33,6 +33,7 @@
 /* -------------------- MAP -------------------- */
 .map {
   padding: 35px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
 }
@@ -127,7 +128,6 @@
 @media (max-width: 480px) {
   .map {
     align-items: center;
-    margin-bottom: 20px;
   }
   #address {
     width: 100%;
