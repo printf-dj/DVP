@@ -2,7 +2,7 @@
 // Initialize and add the map
 function initMap() {
   // The location of DVP
-  const dvp = { lat: 30.45453, lng: 79.272533 };
+  const dvp = { lat: 30.45444, lng: 79.272418 };
 
   //Fix Font issue created by GMAP
   var head = document.getElementsByTagName("head")[0];
@@ -24,7 +24,7 @@ function initMap() {
 
   // The map, centered at DVP
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 12,
+    zoom: 14,
     center: dvp,
   });
   // The marker, positioned at DVP
