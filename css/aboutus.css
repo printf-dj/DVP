@@ -7,7 +7,9 @@
   padding-top: 3vh;
   text-align: center;
   font-size: 2rem;
-  font-weight: xx-large;
+}
+#head h1{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 #line {
   padding: 10px;
@@ -30,5 +32,6 @@
   background-color: white;
 }
 .content h2 {
+  font-family: 'Comfortaa', cursive;
   font-weight: 600;
 }

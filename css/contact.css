@@ -7,7 +7,9 @@
   padding-top: 3vh;
   text-align: center;
   font-size: 2rem;
-  font-weight: xx-large;
+}
+#head h1{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 #line {
   padding: 10px;
@@ -35,7 +37,9 @@
   line-height: 25px;
   background-color: white;
 }
-
+.contact h1{
+  font-weight: 600;
+}
 button {
   background-color: #ffffff;
   border-radius: 15px;
@@ -84,6 +88,9 @@ button {
   transition: 0.5s ease-in-out;
   line-height: 25px;
   background-color: white;
+}
+.address h1{
+  font-weight: 600
 }
 .address:hover,
 .contact:hover {
@@ -140,7 +147,7 @@ button {
   border-radius: 25px;
 }
 .form:hover{
-  box-shadow: 1px 2px 8px rgb(0 0 0 / 200%); 
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 200%);
 }
 @media (max-width: 700px) {
   .form{
