@@ -13,7 +13,7 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/hf.js"></script>
-    <!-- <script src="/js/typed.min.js"></script> -->
+    <script src="/js/typed.min.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQADPCKTGs5jCYgGWXoW26eLtH01WQctE&callback=initMap&libraries=&v=weekly"
         defer></script>
@@ -29,55 +29,81 @@
             <div id="header">
             </div>
             <div class="box">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
-                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
-                    quidem
-                    beatae tenetur!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
-                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
-                    quidem
-                    beatae tenetur!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
-                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
-                    quidem
-                    beatae tenetur!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
-                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
-                    quidem
-                    beatae tenetur!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
-                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
-                    quidem
-                    beatae tenetur!</p>
-
-                <div class="map">
-                    <div id="map"></div>
-                    <div id="address">
-                        <p>
-                            <i class="fas fa-map-marked-alt"></i>
-                            <br>Hotel Deva View Point
-                            <br> Badri-Kedar-Bypass Rd
-                            <br> Mandal, Gopeshwar,
-                            <br> Chamoli, Uttarakhand, 246401
-                        </p>
-                    </div>
+                <section id="a">
+                    <div id="greeting">
+                    <span id="welcome"></span>
                 </div>
+                </section>
+                <section id="b">
+                    <div class="container">
+                        <div class="item">
+                            <p><i class="fas fa-utensils"></i>
+                                <br>
+                                Delicious Food</p>
+                        </div>
+                        <div class="item">
+                            <p><i class="fas fa-mountain"></i>
+                                <br>
+                                Serene Beauty</p>
+                        </div>
+                        <div class="item">
+                            <p><i class="fas fa-bed"></i>
+                                <br>
+                                Cosy Stay</p>
+                        </div>
+                        <div class="item">
+                            <p><i class="fas fa-running"></i>
+                                <br>
+                                Trekking</p>
+                        </div>
+                    </div>
+                </section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
+                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
+                    quidem
+                    beatae tenetur!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
+                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
+                    quidem
+                    beatae tenetur!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
+                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
+                    quidem
+                    beatae tenetur!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
+                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
+                    quidem
+                    beatae tenetur!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos libero ullam, expedita error
+                    delectus unde officiis nulla, placeat natus est deserunt eligendi. Ab iusto consequatur mollitia
+                    quidem
+                    beatae tenetur!</p>
+                <section>
+                    <div class="map">
+                        <div id="map"></div>
+                        <div id="address">
+                            <p>
+                                <i class="fas fa-map-marked-alt"></i>
+                                <br>Hotel Deva View Point
+                                <br> Badri-Kedar-Bypass Rd
+                                <br> Mandal, Gopeshwar,
+                                <br> Chamoli, Uttarakhand, 246401
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
 
-            <div id="typed-strings" style="display: none;">
-                <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-                <p>It <em>types</em> out sentences.</p>
-            </div>
-            <div id="typed"></div>
-        </div>
         <div id=footer></div>
     </div>
     </div>
     <script>
-        var typed = new Typed('#typed', {
+        var typed = new Typed('#welcome', {
+            strings: ['Hello', 'नमस्ते','হ্যালো', 'హలో', 'नमस्कार', 'ਸਤ ਸ੍ਰੀ', 'ਅਕਾਲ', 'નમસ્તે', 'வணக்கம்'],
             typeSpeed: 100,
             startDelay: 500,
             backSpeed: 50,
+            smartBackspace:true,
             loop: true,
             loopCount: Infinity,
             fadeOut: false,
