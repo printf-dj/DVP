@@ -407,7 +407,7 @@ p:hover heart:active {
 }
 @keyframes fadeAndSlide {
   from {
-    margin-top: 250px;
+    margin-top: 150px;
     opacity: 0;
   }
   to {
