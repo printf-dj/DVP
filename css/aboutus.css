@@ -24,14 +24,13 @@
   line-height: 30px;
 }
 .content div {
-  padding: 20px;
+  padding: 25px 35px;
   box-shadow: 1px 2px 8px rgb(0 0 0 / 50%);
   border-radius: 25px;
-  margin-top: 20px;
   transition: 250ms ease-out;
   background-color: white;
 }
 .content h2 {
   font-family: 'Comfortaa', cursive;
-  font-weight: 600;
+  line-height: 45px;
 }
