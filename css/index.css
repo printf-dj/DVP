@@ -1,124 +1,142 @@
 /* -------------------- Loader -------------------- */
-.loader{
+.loader {
   height: 100vh;
-  width:100vw;
+  width: 100vw;
   background-color: #f4f4f4;
 }
-#loader { 
+#loader {
   border: 11px solid;
-  border-top-color:#4285f4;
-  border-right-color:#34a853;
-  border-bottom-color:#fbbc05;
+  border-top-color: #4285f4;
+  border-right-color: #34a853;
+  border-bottom-color: #fbbc05;
   border-left-color: #ea4335;
-  border-radius: 50%; 
-  width: 70px; 
-  height: 70px; 
-  animation: spin 1s linear infinite; 
-} 
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
 
-@keyframes spin { 
-  100% { 
-      transform: rotate(360deg); 
-  } 
-} 
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-.center { 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0; 
-  margin: auto; 
-} 
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 /* -------------------- SECTION a -------------------- */
-#a{
-  width:100vw;
-  height:250px;
+#a {
+  width: 100vw;
+  height: 250px;
 }
-#greeting{
-    height: 100%;
-    display: flex;
-    place-items: center;
-    place-content: center;
+#greeting {
+  height: 100%;
+  display: flex;
+  place-items: center;
+  place-content: center;
 }
-#greeting span{
+#greeting span {
   font-size: 100px;
   font-weight: 700;
-  color:#333;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #333;
+  font-family: "Source Sans Pro", sans-serif;
 }
-@media (max-width:425px){
-  #a{
-    height:200px;
+@media (max-width: 425px) {
+  #a {
+    height: 200px;
   }
-  #greeting span{
-    font-size:60px;
+  #greeting span {
+    font-size: 60px;
   }
 }
 /* -------------------- SECTION b -------------------- */
-#b{
-  width:100vw;
-  height:40vh;
+#b {
+  width: 100vw;
+  height: 40vh;
   margin-bottom: 35px;
 }
 .container {
   height: 100%;
   place-self: center;
-  margin: 35px;;
+  margin: 35px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   border-radius: 20px;
   transition: 0.5s ease-in-out;
-  box-shadow: 1px 2px 8px rgb(0 0 0 / 60%);
-    background: linear-gradient(253deg, #0061ff, #8bc34e);
-    background-size: 400% 400%;
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 150%);
+  background: linear-gradient(253deg, #0061ff, #8bc34e);
+  background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 23s ease infinite;
-    -moz-animation: AnimationName 23s ease infinite;
-    animation: AnimationName 23s ease infinite;
+  -webkit-animation: AnimationName 23s ease infinite;
+  -moz-animation: AnimationName 23s ease infinite;
+  animation: AnimationName 23s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 77%}
-    50%{background-position:100% 24%}
-    100%{background-position:0% 77%}
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 77%}
-    50%{background-position:100% 24%}
-    100%{background-position:0% 77%}
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 77%}
-    50%{background-position:100% 24%}
-    100%{background-position:0% 77%}
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
 }
-.item{
+.item {
   display: flex;
   place-items: center;
   place-content: center;
-  color:white;
-  cursor:default;
+  color: white;
+  cursor: default;
 }
-.item>p{
+.item > p {
   font-size: 30px;
   text-align: center;
   font-weight: 500;
 }
-.item:hover p{
+.item:hover p {
   font-size: 33px;
-  color:#333;
+  color: #333;
   font-weight: bold;
 }
-@media (max-width:450px) {
-  #b{
+@media (max-width: 450px) {
+  #b {
     height: 35vh;
   }
-  .item>p{
-    font-size:18px;
+  .item > p {
+    font-size: 18px;
   }
-  .item:hover p{
+  .item:hover p {
     font-size: 20px;
   }
 }
@@ -153,6 +171,8 @@
   top: 50%;
   transform: translate(0, -50%);
   transition: 0.5s ease-out;
+  font-family: "Comfortaa", cursive;
+  color: #333;
 }
 #address:hover {
   background-color: teal;

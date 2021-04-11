@@ -8,8 +8,8 @@
   text-align: center;
   font-size: 2rem;
 }
-#head h1{
-  font-family: 'Source Sans Pro', sans-serif;
+#head h1 {
+  font-family: "Source Sans Pro", sans-serif;
 }
 #line {
   padding: 10px;
@@ -37,7 +37,7 @@
   line-height: 25px;
   background-color: white;
 }
-.contact h1{
+.contact h1 {
   font-weight: 600;
 }
 button {
@@ -89,8 +89,8 @@ button {
   line-height: 25px;
   background-color: white;
 }
-.address h1{
-  font-weight: 600
+.address h1 {
+  font-weight: 600;
 }
 .address:hover,
 .contact:hover {
@@ -132,13 +132,13 @@ button {
     margin-top: 20px;
   }
 }
-.form{
-  width:50vw;
-  min-height:120px;
-  margin:auto;
-  padding:15px;
-  display:flex;
-  background:white;
+.form {
+  width: 50vw;
+  min-height: 120px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  background: white;
   line-height: 25px;
   align-items: center;
   justify-content: center;
@@ -146,44 +146,46 @@ button {
   box-shadow: 1px 2px 8px rgb(0 0 0 /10%);
   border-radius: 25px;
 }
-.form:hover{
+.form:hover {
   box-shadow: 1px 2px 8px rgb(0 0 0 / 200%);
 }
 @media (max-width: 700px) {
-  .form{
+  .form {
     margin: 35px;
     width: auto;
   }
 }
-.form input,textarea{
-  width:250px;
-  padding:8px 20px;
+.form input,
+textarea {
+  width: 250px;
+  padding: 8px 20px;
   margin: 8px 0;
   border: 1px solid #333;
   border-radius: 10px;
-  outline:none;
+  outline: none;
 }
-.form input:focus,textarea:focus{
+.form input:focus,
+textarea:focus {
   box-shadow: 1px 2px 8px rgb(0 0 0 /20%);
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
 }
-.form [type=submit]{
-  width:40%;
-  padding:5px 10px;
+.form [type="submit"] {
+  width: 40%;
+  padding: 5px 10px;
   margin: 8px 0 12px 0;
   font-size: 18px;
   font-weight: 600;
-  color:#0066A2;
-  border: 2px solid #0066A2;
+  color: #0066a2;
+  border: 2px solid #0066a2;
   transition: 500ms ease-in-out;
 }
-.form [type=submit]:hover{
-  background-color:#0066A2;
-  color:white;
+.form [type="submit"]:hover {
+  background-color: #0066a2;
+  color: white;
   border: 2px solid;
   font-size: 18px;
   font-weight: 600;
-  outline:none;
+  outline: none;
 }
 .booking {
   display: flex;
@@ -216,7 +218,7 @@ button {
   transition: 0.5s ease-in-out;
   outline-style: dashed;
   outline-color: black;
-  image-rendering:pixelated;
+  image-rendering: pixelated;
 }
 
 @media (max-width: 700px) {
