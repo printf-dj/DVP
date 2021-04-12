@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 #head {
-  color: #333;
+  color: var(--black);
   padding-top: 3vh;
   text-align: center;
   font-size: 2rem;
@@ -160,7 +160,7 @@ textarea {
   width: 250px;
   padding: 8px 20px;
   margin: 8px 0;
-  border: 1px solid #333;
+  border: 1px solid var(--black);
   border-radius: 10px;
   outline: none;
 }
@@ -237,6 +237,6 @@ textarea:focus {
   color: black;
 }
 a {
-  color: #333;
+  color: var(--black);
   text-decoration: none;
 }

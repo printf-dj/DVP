@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 #head {
-  color: #333;
+  color: var(--black);
   padding-top: 3vh;
   text-align: center;
   font-size: 2rem;
@@ -40,7 +40,7 @@
 }
 .caption p {
   font-style: italic;
-  color: #333;
+  color: var(--black);
   font-weight: 600;
   font-size: large;
 }

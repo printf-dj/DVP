@@ -8,6 +8,8 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   outline-style: none;
+  --black:#333;
+  --hfwhite: #f8f9fa;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -30,7 +32,7 @@ body {
   height: 100vh;
   overflow-x: auto;
   transition: all 200ms ease-in-out;
-  background: linear-gradient(270deg, #ffffff, #f1f0f0, #f1f0f0, #f8ffef);
+  background: linear-gradient(270deg, #ffffff, #f1f0f0, #f3f1f1, #f8ffef);
   background-size: 800% 800%;
 
   -webkit-animation: AnimationName 10s ease infinite;
@@ -85,7 +87,7 @@ body {
   height: 90px;
   top: -20px;
   align-items: center;
-  background-color: #f8f9fa;
+  background-color:var(--hfwhite);
   box-shadow: 0px 3px 10px #757575;
   transition: 1s ease-in-out;
 }
@@ -96,7 +98,7 @@ body {
   width: 100vw;
   height: 65px;
   position: sticky;
-  background-color: #f8f9fa;
+  background-color:var(--hfwhite);
   align-content: center;
   padding: 1rem;
   top: 0;
@@ -250,8 +252,8 @@ footer {
   height: 150px;
   position: absolute;
   bottom: 0;
-  background-color: #f8f9fa;
-  color: #333 !important;
+  background-color:var(--hfwhite);
+  color: var(--black) !important;
   display: flex;
   flex-direction: column;
   box-shadow: 0px -3px 10px #757575;
@@ -274,7 +276,7 @@ footer section {
 #one {
   width: 50%;
   line-height: 0.8rem;
-  color: #333;
+  color: var(--black);
 }
 
 #two {
@@ -285,20 +287,20 @@ footer section {
 
 #two a {
   text-decoration: none;
-  color: #333;
+  color: var(--black);
 }
 
 footer > .footer2 {
   text-align: center;
-  background-color: #f8f9fa;
+  background-color:var(--hfwhite);
   cursor: default;
   font-size: small;
-  color: #333;
+  color: var(--black);
   margin: auto;
 }
 .footer2 > p,
 .footer2 > p > a {
-  color: #333;
+  color: var(--black);
   text-decoration: none;
 }
 

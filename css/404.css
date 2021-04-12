@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  color: #333;
+  color: var(--black);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: large;
@@ -14,7 +14,7 @@ body {
   text-decoration: none;
 }
 a {
-  color: #333;
+  color: var(--black);
   text-decoration: none;
 }
 
