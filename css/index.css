@@ -71,7 +71,7 @@
   border-radius: 20px;
   transition: 0.5s ease-in-out;
   box-shadow: 1px 2px 8px rgb(0 0 0 / 150%);
-  background: linear-gradient(253deg, #0061ff, #8bc34e);
+  background: linear-gradient(180deg, #0061ff, #8bc34e);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 23s ease infinite;
