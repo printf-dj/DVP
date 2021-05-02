@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 * {
   margin: 0;
@@ -52,6 +52,8 @@ body {
   background-color:var(--hfwhite);
   box-shadow: 0px 3px 10px #757575;
   transition: 1s ease-in-out;
+  background-position: fixed
+  ;
 }
 
 .header {
@@ -60,17 +62,19 @@ body {
   width: 100vw;
   height: 65px;
   position: sticky;
-  background-color:var(--hfwhite);
   align-content: center;
   padding: 1rem;
   top: 0;
   transition: 1s ease-in-out;
 }
+.logo{
+  width:80vw;
+}
 .logo a {
   text-decoration: none;
   color: #8bc34e;
-  font-family: "Comfortaa", cursive;
-  font-size: 2.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 45px;
 }
 
 nav {
@@ -119,20 +123,20 @@ nav ul li a:hover {
 }
 
 .toggle-btn {
-  width: 2rem;
-  height: 1.5rem;
+  width: 30px;
+  height: 20px;
   display: flex;
   position: absolute;
   cursor: pointer;
   justify-content: center;
   margin-top: 0.6rem;
-  right: 3vw;
+  right: 2.5vw;
   z-index: 10;
 }
 
 .toggle-btn .bar {
   position: absolute;
-  height: 4px;
+  height: 3px;
   width: 100%;
   background: #92d050;
   border-radius: 25px;
@@ -140,14 +144,14 @@ nav ul li a:hover {
 }
 
 .toggle-btn .bar:nth-child(1) {
-  top: 0;
+  top: 5px;
 }
 .toggle-btn .bar:nth-child(2) {
-  top: 10px;
+  top: 15px;
   left: 0;
 }
 .toggle-btn .bar:nth-child(3) {
-  top: 20px;
+  top: 25px;
 }
 
 #toggle:checked ~ nav {
@@ -188,14 +192,12 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 450px) {
   .logo a {
-    font-size: 1em;
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .header {
-    display: flex;
-    align-items: center;
     font-size: 1.5rem;
   }
   #header {
