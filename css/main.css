@@ -124,7 +124,7 @@ nav ul li a:hover {
 
 .toggle-btn {
   width: 30px;
-  height: 20px;
+  height: 40%;
   display: flex;
   position: absolute;
   cursor: pointer;
@@ -136,7 +136,7 @@ nav ul li a:hover {
 
 .toggle-btn .bar {
   position: absolute;
-  height: 3px;
+  height: 4px;
   width: 100%;
   background: #92d050;
   border-radius: 25px;
@@ -144,14 +144,14 @@ nav ul li a:hover {
 }
 
 .toggle-btn .bar:nth-child(1) {
-  top: 5px;
+  top: 3px;
 }
 .toggle-btn .bar:nth-child(2) {
-  top: 15px;
+  top: 12px;
   left: 0;
 }
 .toggle-btn .bar:nth-child(3) {
-  top: 25px;
+  top: 21px;
 }
 
 #toggle:checked ~ nav {
