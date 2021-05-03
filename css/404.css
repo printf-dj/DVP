@@ -1,24 +1,23 @@
 body {
-  margin: 1vw;
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url(/assets/notfound.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  color: var(--black);
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
+	margin: 1vw;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(/assets/notfound.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	color: var(--black);
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: large;
+	font-weight: 600;
+	text-decoration: none;
 }
 a {
-  color: var(--black);
-  text-decoration: none;
+	color: var(--black);
+	text-decoration: none;
 }
 
-p{
-  line-height: 25px;
+p {
+	line-height: 25px;
 }
-

@@ -195,7 +195,7 @@ nav ul li a:hover {
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 	.header {
 		font-size: 1.5rem;
 	}
@@ -263,7 +263,9 @@ footer section {
 	align-items: center;
 	border-radius: 50%;
 	cursor: pointer;
-	
+	margin: 5px;
+	box-shadow: 0 0 5px #757575;
+	background-color: #ffffff;
 	transition: all 0.25s ease-in-out;
 }
 footer > .footer2 {
@@ -278,33 +280,30 @@ footer > .footer2 {
 	text-decoration: none;
 }
 
-@media (max-width: 450px) {
-  footer section {
-    height:80%;
-  }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	footer section {
+		height: 80%;
+	}
 	#one {
 		width: 100%;
 		padding-bottom: 10px;
-    text-align: center;
+		text-align: center;
 	}
 	#socials {
 		width: 100%;
-    padding-top: 10px;
+		padding-top: 10px;
 	}
-  #socials ul{
-  justify-content: space-evenly;
-  }
-  #socials li{
-    background-color:#eceff1;
-    box-shadow: 0px 1px 9px #c0b1b1;
-  }
-}
-@media (max-width: 505px) {
+	#socials ul {
+		justify-content: space-evenly;
+	}
+	#socials li {
+		box-shadow: 0px 1px 9px #c0b1b1;
+	}
 	#one > h2 {
 		font-size: x-large !important;
 	}
 	footer {
-		height: 180px;
+		height: 200px;
 	}
 	#content-wrap {
 		padding-bottom: 200px;
@@ -321,7 +320,7 @@ footer > .footer2 {
 }
 .fa-envelope {
 	font-size: large;
-	background: linear-gradient(180deg,rgb(190 33 33), #ea4335);
+	background: linear-gradient(180deg, rgb(190 33 33), #ea4335);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
@@ -329,20 +328,20 @@ footer > .footer2 {
 }
 .fa-whatsapp {
 	font-size: large;
-	color:#25D366;
+	color: #25d366;
 }
 .fa-facebook {
-  color: #3b5998;
-  background-image: linear-gradient(
-    to bottom,
-    transparent 20%,
-    white 20%,
-    white 93%,
-    transparent 93%
-  );
-  background-size: 55%;
-  background-position: 70% 0;
-  background-repeat: no-repeat;
+	color: #3b5998;
+	background-image: linear-gradient(
+		to bottom,
+		transparent 20%,
+		white 20%,
+		white 93%,
+		transparent 93%
+	);
+	background-size: 55%;
+	background-position: 70% 0;
+	background-repeat: no-repeat;
 }
 
 /* --------------------Reveal on Scroll-------------------- */

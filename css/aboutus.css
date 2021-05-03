@@ -1,36 +1,36 @@
 .main {
-  position: relative;
-  min-height: 100vh;
+	position: relative;
+	min-height: 100vh;
 }
 #head {
-  color: var(--black);
-  padding-top: 3vh;
-  text-align: center;
-  font-size: 2rem;
+	color: var(--black);
+	padding-top: 3vh;
+	text-align: center;
+	font-size: 2rem;
 }
-#head h1{
-  font-family: 'Source Sans Pro', sans-serif;
+#head h1 {
+	font-family: "Source Sans Pro", sans-serif;
 }
 #line {
-  padding: 10px;
-  text-align: center;
+	padding: 10px;
+	text-align: center;
 }
 .box {
-  margin: auto;
+	margin: auto;
 }
 .content {
-  padding: 10px 15px 10px 15px;
-  text-align: left;
-  line-height: 30px;
+	padding: 10px 15px 10px 15px;
+	text-align: left;
+	line-height: 30px;
 }
 .content div {
-  padding: 25px 35px;
-  box-shadow: 1px 2px 8px rgb(0 0 0 / 50%);
-  border-radius: 25px;
-  transition: 250ms ease-out;
-  background-color: white;
+	padding: 25px 35px;
+	box-shadow: 1px 2px 8px rgb(0 0 0 / 50%);
+	border-radius: 25px;
+	transition: 250ms ease-out;
+	background-color: white;
 }
 .content h2 {
-  font-family: 'Comfortaa', cursive;
-  line-height: 45px;
+	font-family: "Comfortaa", cursive;
+	line-height: 45px;
 }
