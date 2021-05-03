@@ -39,7 +39,7 @@
 	margin: auto;
 }
 .caption p {
-	font-style: italic;
+	font-family: "Comfortaa", cursive;
 	color: var(--black);
 	font-weight: 600;
 	font-size: large;
