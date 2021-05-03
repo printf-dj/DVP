@@ -268,6 +268,11 @@ footer section {
 	background-color: #ffffff;
 	transition: all 0.25s ease-in-out;
 }
+#socials li:hover{
+	font-size: 26px;
+	background-color: rgb(236 239 241);
+	transform: scale3d(1.2, 1.2, 1.2);
+}
 footer > .footer2 {
 	text-align: center;
 	background-color: var(--hfwhite);
@@ -311,7 +316,6 @@ footer > .footer2 {
 }
 /* --------------------FA Icons scheme-------------------- */
 .fa-phone {
-	font-size: large;
 	background: linear-gradient(-120deg, #021b79, #0575e6, #205e9b);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -319,7 +323,6 @@ footer > .footer2 {
 	-webkit-text-fill-color: transparent;
 }
 .fa-envelope {
-	font-size: large;
 	background: linear-gradient(180deg, rgb(190 33 33), #ea4335);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -327,7 +330,6 @@ footer > .footer2 {
 	-webkit-text-fill-color: transparent;
 }
 .fa-whatsapp {
-	font-size: large;
 	color: #25d366;
 }
 .fa-facebook {
