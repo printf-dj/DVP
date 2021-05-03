@@ -24,14 +24,16 @@ function initMap() {
 
   // The map, centered at DVP
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 13,
+    zoom: 20,
     center: dvp,
+    mapTypeId: 'hybrid',
   });
   // The marker, positioned at DVP
   const marker = new google.maps.Marker({
     position: dvp,
-    map: map,
+    map:map,
     animation: google.maps.Animation.BOUNCE,
+    label:"DVP",
   });
 }
 
